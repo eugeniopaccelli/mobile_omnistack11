@@ -1,0 +1,48 @@
+Arguments: 
+  /home/eugenio/.nvm/versions/node/v13.12.0/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /home/eugenio/anaconda3/bin:/home/eugenio/anaconda3/bin:/home/eugenio/.nvm/versions/node/v13.12.0/bin:/home/eugenio/.asdf/shims:/home/eugenio/.asdf/bin:/home/eugenio/.rvm/gems/ruby-2.5.3/bin:/home/eugenio/.rvm/gems/ruby-2.5.3@global/bin:/home/eugenio/.rvm/rubies/ruby-2.5.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/eugenio/.rvm/bin:/home/eugenio/flutter/bin:/home/eugenio/Android/Sdk/emulator:/home/eugenio/Android/Sdk/tools:/home/eugenio/Android/Sdk/tools/bin:/home/eugenio/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~37.0.3",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.1.0",
+      "@babel/core": "^7.8.6"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
